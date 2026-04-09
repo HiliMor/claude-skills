@@ -18,13 +18,17 @@ Then restart Claude Code — the command will appear when you type `/`.
 
 ### `/claude-whats-new`
 
-Fetches the official Claude Code changelog and summarizes what's new in plain language — not just listing features, but explaining why they matter and how to use them.
+Fetches the official Claude Code changelog and summarizes what's new in plain language.
+
+**Usage:**
+- `/claude-whats-new` — short summary of the latest release only
+- `/claude-whats-new full` — detailed summary of all recent releases with explanations and examples
+- `/claude-whats-new since March 2025` — filter by date or version
 
 **Highlights:**
 - TL;DR at the top — the single most important change
 - Breaking changes called out separately
-- Practical usage examples for each feature
-- Filter by version or date (e.g. `/claude-whats-new since March 2025`)
+- Short by default, detailed on demand
 
 **Source:** [Claude Code Changelog](https://code.claude.com/docs/en/changelog)
 
