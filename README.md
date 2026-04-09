@@ -7,7 +7,7 @@ A collection of custom slash commands for [Claude Code](https://code.claude.com)
 Copy any skill file to your Claude Code commands directory:
 
 ```bash
-cp <skill-name>.md ~/.claude/commands/
+cp commands/claude-whats-new.md ~/.claude/commands/
 ```
 
 Then restart Claude Code — the command will appear when you type `/`.
