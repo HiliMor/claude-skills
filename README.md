@@ -49,6 +49,23 @@ Extracts key lessons from the current conversation and saves them as a dated fil
 
 ---
 
+### `/learn`
+
+Explains any concept in simple beginner-friendly language and saves it automatically to `~/claude-learning-log/`.
+
+**Usage:**
+- `/learn git hooks` — explains git hooks and saves the lesson
+- `/learn what is an API` — explains APIs and saves the lesson
+- `/learn CSS flexbox` — explains flexbox and saves the lesson
+
+**Highlights:**
+- Simple language with real-world analogies
+- One practical example per concept
+- Auto-saved as a dated file in `~/claude-learning-log/`
+- No manual step needed
+
+---
+
 ## Contributing
 
 Feel free to open a PR with your own skills.
