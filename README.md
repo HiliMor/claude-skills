@@ -7,7 +7,7 @@ A collection of custom slash commands for [Claude Code](https://code.claude.com)
 Copy any skill file to your Claude Code commands directory:
 
 ```bash
-cp commands/claude-whats-new.md ~/.claude/commands/
+cp commands/<skill-name>.md ~/.claude/commands/
 ```
 
 Then restart Claude Code — the command will appear when you type `/`.
@@ -31,6 +31,21 @@ Fetches the official Claude Code changelog and summarizes what's new in plain la
 - Short by default, detailed on demand
 
 **Source:** [Claude Code Changelog](https://code.claude.com/docs/en/changelog)
+
+---
+
+### `/what-i-learned`
+
+Extracts key lessons from the current conversation and saves them as a dated file in `~/claude-learning-log/`.
+
+**Usage:**
+- `/what-i-learned` — run at the end of any session to capture what's worth remembering
+
+**Highlights:**
+- 3–7 real lessons per session, not a recap
+- Short examples where helpful
+- Each session saved as its own file: `YYYY-MM-DD-topic.txt`
+- Builds a personal knowledge log over time
 
 ---
 
